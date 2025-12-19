@@ -1,5 +1,8 @@
 <Solution>
   <Folder Name="/aspire/" />
+  <Folder Name="/Solution Items/">
+    <File Path="compose.yaml" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="Api/Api.csproj" />
     <Project Path="Application/Application.csproj" />
