@@ -1,7 +1,9 @@
 <Solution>
   <Folder Name="/aspire/" />
   <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
     <File Path="compose.yaml" />
+    <File Path="Directory.Build.props" />
   </Folder>
   <Folder Name="/src/">
     <Project Path="Api/Api.csproj" />

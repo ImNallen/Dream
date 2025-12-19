@@ -12,3 +12,9 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.Run();
+
+// Make Program accessible for testing (WebApplicationFactory and Architecture tests)
+namespace Api
+{
+    public partial class Program;
+}
