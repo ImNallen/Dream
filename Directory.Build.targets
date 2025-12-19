@@ -1,0 +1,9 @@
+<Project>
+
+  <!-- Disable CA1707 (underscore naming) for test projects -->
+  <PropertyGroup Condition="$(MSBuildProjectName.EndsWith('Tests'))">
+    <NoWarn>$(NoWarn);CA1707</NoWarn>
+  </PropertyGroup>
+
+</Project>
+
